@@ -2,7 +2,10 @@ module github.com/ratify-project/ratify-verifier-plugin
 
 go 1.23.2
 
-require github.com/ratify-project/ratify v1.3.0
+require (
+	github.com/opencontainers/image-spec v1.1.0
+	github.com/ratify-project/ratify v1.3.0
+)
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible // indirect
@@ -65,7 +68,6 @@ require (
 	github.com/notaryproject/notation-core-go v1.1.0 // indirect
 	github.com/notaryproject/tspclient-go v0.2.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.19.1 // indirect
